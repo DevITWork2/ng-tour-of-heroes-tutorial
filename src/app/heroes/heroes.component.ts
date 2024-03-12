@@ -22,8 +22,13 @@ export class HeroesComponent {
 
 
   }
-  getHeroes():void{
+  /*getHeroes():void{
     this.heroes=this.heroService.getHeroes();
+
+  }*/
+  getHeroes():void{
+    this.heroService.getHeroes()
+    .subscribe(serviceHeroes=> this.heroes=serviceHeroes);
 
   }
   ngOnInit():void{
