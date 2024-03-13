@@ -26,5 +26,8 @@ export class HeroDetailComponent {
       this.heroService.getHero(id)
         .subscribe(hero => this.hero = hero);
     }
+  goBack():void{
+    this.location.back();
+  }
 
 }
