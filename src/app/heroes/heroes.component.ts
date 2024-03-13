@@ -29,7 +29,7 @@ export class HeroesComponent {
   }*/
   getHeroes():void{
     this.heroService.getHeroes()
-    .subscribe(serviceHeroes=> this.heroes=serviceHeroes);
+    .subscribe(x=> this.heroes=x);
 
   }
   ngOnInit():void{
