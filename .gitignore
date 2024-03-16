@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+/.angular
+package-lock.json
+.vs/VSWorkspaceState.json
+.vs/ng-tour-of-heroes-tutorial/FileContentIndex/7778ba51-4004-489e-90bd-4244f3427ed5.vsidx
+.vs/slnx.sqlite
+.vs/ng-tour-of-heroes-tutorial/v17/.wsuo
